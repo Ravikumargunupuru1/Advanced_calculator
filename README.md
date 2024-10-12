@@ -15,18 +15,32 @@ Follow these steps to install and run the project locally.
 * Ensure that python and pip are added to your system's PATH.
 
 2. Verify Tkinter Installation
-Tkinter comes pre-installed with most Python distributions. To verify its installation, open a terminal or command prompt and run:
-python -m tkinter
-If Tkinter is installed correctly, a small window will appear.
+* Tkinter comes pre-installed with most Python distributions.
+* To verify its installation, open a terminal or command prompt and run:
+ ```bash
+   python -m tkinter
+   ```
+* If Tkinter is installed correctly, a small window will appear.
 
-3. Install Tkinter (if needed)
-If Tkinter is not installed on your system, use the following commands based on your operating system:
-For macOS: brew install python-tk
-For Ubuntu/Debian: sudo apt-get install python3-tk
+4. Install Tkinter (if needed)
+* If Tkinter is not installed on your system, use the following commands based on your operating system:
+* For macOS:
+ ```bash
+   brew install python-tk
+   ```
+* For Ubuntu/Debian:
+ ```bash
+   sudo apt-get install python3-tk
+   ```
+5. Clone the Repository
+* Clone the project repository from GitHub: git clone https://github.com/Ravikumargunupuru1/Advanced_calculator.git
+* Navigate into the project directory:
+ ```bash
+   cd Advanced_calculator
+   ```
 
-4. Clone the Repository
-Clone the project repository from GitHub: git clone https://github.com/Ravikumargunupuru1/Advanced_calculator.git
-Navigate into the project directory: cd Advanced_calculator
-
-5. Run the Application
-To launch the calculator, run the following command: python calculator.py
+6. Run the Application
+* To launch the calculator, run the following command:
+ ```bash
+   python calculator.py
+   ```

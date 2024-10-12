@@ -1,0 +1,4 @@
+Requirements for this project:
+
+Python 3.x
+Tkinter [pip install TKinter](comes pre-installed with most Python distributions)
